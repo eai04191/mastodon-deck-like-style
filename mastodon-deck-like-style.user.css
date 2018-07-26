@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Mastodon Deck Like Style
 @namespace      mizle.net
-@version        1.0.0
+@version        1.0.1
 @description    Apply TweetDeck style to Mastodon Web.
 @author         Eai <eai@mizle.net> (https://mizle.net)
 @homepageURL    https://github.com/eai04191/mastodon-deck-like-style/
@@ -57,8 +57,19 @@
         background: #fff;
     }
 
-    .status {
-        padding-left: (customAvatarSize + 20px);
+    .status__wrapper {
+        .status__prepend {
+            padding-bottom: 0;
+            span {
+                padding-top: 1.5px;
+                line-height: 1;
+            }
+        }
+
+        .status {
+            padding-left: (customAvatarSize + 20px);
+        }
+
         .status__relative-time {
             margin-top: 3px;
         }
@@ -178,8 +189,12 @@
         line-height: inherit;
     }
 
-    .status {
+    .status__wrapper {
         .status__display-name,
+        .status__prepend .status__display-name strong,
+        /* Boosted user name */
+        .status__prepend > span,
+        /* "xxx boosted" */
         .status__relative-time {
             color: var(--mute-text-color);
         }
@@ -189,7 +204,9 @@
         color: var(--font-color);
     }
 
-    /* Columns */
+    /* 
+        Columns 
+    */
     if columns==narrow {
         .column {
             width: 270px;
@@ -208,7 +225,9 @@
         }
     }
 
-    /* Font Size */
+    /*
+        Font Size
+    */
     if customFontSize {
         :root {
             font-size: customFontSize;
@@ -250,6 +269,8 @@
     .reply-indicator__content,
     .status__content,
     .status__info,
+    .status__prepend > span,
+    /* "xxx boosted" */
     .detailed-status__display-name strong,
     .notification__message {
         font-size: 1rem;
