@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Mastodon Deck-Like Style
 @namespace      mizle.net
-@version        1.0.2
+@version        1.0.3
 @description    Apply TweetDeck style to Mastodon Web.
 @author         Eai <eai@mizle.net> (https://mizle.net)
 @homepageURL    https://github.com/eai04191/mastodon-deck-like-style/
@@ -28,7 +28,7 @@
 @var            text    customFontSize    "Custom Font Size at CSS, 0 to Disable." 0
 @var            text    customAvatarSize  "Custom Avatar Size at PX" 36px
 ==/UserStyle== */
-@-moz-document url-prefix("https://mstdn.maud.io/web/") {
+@-moz-document regexp("https://.+/web/.+") {
     ::-webkit-scrollbar {
         width: 10px;
         height: 11px
