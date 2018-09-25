@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Mastodon Deck-Like Style
 @namespace      mizle.net
-@version        1.0.3
+@version        1.0.4
 @description    Apply TweetDeck style to Mastodon Web.
 @author         Eai <eai@mizle.net> (https://mizle.net)
 @homepageURL    https://github.com/eai04191/mastodon-deck-like-style/
@@ -79,7 +79,8 @@
         }
     }
 
-    .account__avatar,
+    .status__avatar .account__avatar,
+    .navigation-bar .account__avatar,
     .astatus__avatar,
     .aaccount__avatar-overlay {
         width: customAvatarSize !important;
@@ -179,8 +180,7 @@
 
     .column-header,
     .status,
-    .status__wrapper--filtered
-    .account {
+    .status__wrapper--filtered .account {
         border-bottom: 1px solid var(--item-bottom-color);
     }
 
