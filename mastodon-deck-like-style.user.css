@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Mastodon Deck-Like Style
 @namespace      mizle.net
-@version        1.0.5
+@version        1.0.6
 @description    Apply TweetDeck style to Mastodon Web.
 @author         Eai <eai@mizle.net> (https://mizle.net)
 @homepageURL    https://github.com/eai04191/mastodon-deck-like-style/
@@ -76,6 +76,7 @@
     }
 
     .status__avatar .account__avatar,
+    .status__avatar .account__avatar-composite,
     .navigation-bar .account__avatar,
     .astatus__avatar,
     .aaccount__avatar-overlay {
@@ -119,28 +120,30 @@
 
     /* Theme */
     body.theme-default {
-            --scrollbar-thumb-color: #657786;
-            --scrollbar-thumb-hover-color: #8899a6;
-            --scrollbar-track-border-color: #292f33;
-            --background-color: #151f2a;
-            --header-bg-color: #243447;
-            --column-bg-color: #1b2836;
-            --item-bottom-color: #14171a;
-            --mute-text-color: #8899a6;
-            --font-color: #e1e8ed;
+        --scrollbar-thumb-color: #657786;
+        --scrollbar-thumb-hover-color: #8899a6;
+        --scrollbar-track-border-color: #292f33;
+        --background-color: #151f2a;
+        --header-bg-color: #243447;
+        --column-bg-color: #1b2836;
+        --item-bottom-color: #14171a;
+        --mute-text-color: #8899a6;
+        --font-color: #e1e8ed;
     }
 
+
     body.theme-mastodon-light {
-            --scrollbar-thumb-color: #e1e8ed;
-            --scrollbar-thumb-hover-color: #8899a6;
-            --scrollbar-track-border-color: #e1e8ed;
-            --background-color: #e1e8ed;
-            --header-bg-color: #f5f8fa;
-            --column-bg-color: #fff;
-            --item-bottom-color: #e1e8ed;
-            --mute-text-color: #8899a6;
-            --font-color: #292f33;
+        --scrollbar-thumb-color: #e1e8ed;
+        --scrollbar-thumb-hover-color: #8899a6;
+        --scrollbar-track-border-color: #e1e8ed;
+        --background-color: #e1e8ed;
+        --header-bg-color: #f5f8fa;
+        --column-bg-color: #fff;
+        --item-bottom-color: #e1e8ed;
+        --mute-text-color: #8899a6;
+        --font-color: #292f33;
     }
+
 
     ::-webkit-scrollbar-thumb {
         border-radius: 5px;
