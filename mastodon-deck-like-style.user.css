@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Mastodon Deck-Like Style
 @namespace      mizle.net
-@version        1.0.7
+@version        1.0.8
 @description    Apply TweetDeck style to Mastodon Web.
 @author         Eai <eai@mizle.net> (https://mizle.net)
 @homepageURL    https://github.com/eai04191/mastodon-deck-like-style/
@@ -173,7 +173,7 @@
         background-color: var(--column-bg-color);
     }
 
-    .account
+    .account,
     .column-header,
     .status {
         border-bottom: 1px solid var(--item-bottom-color);
@@ -268,7 +268,8 @@
     .status__prepend > span,
     /* "xxx boosted" */
     .detailed-status__display-name strong,
-    .notification__message {
+    .notification__message,
+    .status__content__read-more-button {
         font-size: 1rem;
         line-height: 1.28578em;
     }
