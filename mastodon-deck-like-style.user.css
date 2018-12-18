@@ -1,4 +1,4 @@
-    /* ==UserStyle==
+/* ==UserStyle==
 @name           Mastodon Deck-Like Style
 @namespace      mizle.net
 @version        1.0.9
@@ -11,7 +11,7 @@
 
 @var            checkbox  isCircledAvatar   "Circled Avatar." 0
 @var            select    columns           "Columns" {
-                                               "Narrow": "narrow",
+                                                "Narrow": "narrow",
                                                 "Medium": "medium",
                                                 "Wide": "wide"
                                             }
@@ -238,8 +238,8 @@
             color: var(--font-color);
         }
 
-        /* 
-        Columns 
+        /*
+        Columns
         */
         if columns==narrow {
             .column {
