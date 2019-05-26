@@ -188,7 +188,9 @@
 
         .account,
         .column-header,
-        .status {
+        .status,
+        .status__wrapper--filtered,
+        .load-gap {
             border-bottom: 1px solid var(--item-bottom-color);
         }
 
