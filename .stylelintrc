@@ -1,0 +1,6 @@
+{
+    "extends": "stylelint-config-recess-order",
+    "rules": {
+        "number-leading-zero": "never",
+    }
+}

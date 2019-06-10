@@ -1,0 +1,12 @@
+{
+  "name": "mastodon-deck-like-style",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/eai04191/mastodon-deck-like-style",
+  "author": "eai04191 <eai@mizle.net>",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint": "^10.1.0",
+    "stylelint-config-recess-order": "^2.0.2"
+  }
+}
