@@ -3,7 +3,7 @@
 Mastodon Deck-Like Style
 ===
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/eai04191/mastodon-deck-like-style/master/mastodon-deck-like-style.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/eai04191/mastodon-deck-like-style/master/mastodon-deck-like-style.user.styl)
 
 Apply TweetDeck style to Mastodon Web.
 
@@ -22,7 +22,7 @@ If you do not have it, install it from the link below first.
 
 After installing Stylus, click the following badge and press Install to complete.
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/eai04191/mastodon-deck-like-style/master/mastodon-deck-like-style.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/eai04191/mastodon-deck-like-style/master/mastodon-deck-like-style.user.styl)
 
 
 ## Settings
