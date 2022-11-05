@@ -5,8 +5,8 @@
   "author": "eai04191 <eai@mizle.net>",
   "license": "MIT",
   "devDependencies": {
-    "stylelint": "^13.6.1",
-    "stylelint-config-recess-order": "^2.0.4"
+    "stylelint": "^14.14.1",
+    "stylelint-config-recess-order": "^3.0.0"
   },
   "scripts": {
     "lint": "npm run lint:stylelint",
